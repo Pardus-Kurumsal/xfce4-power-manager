@@ -1,8 +1,16 @@
+From: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Date: Fri, 15 Sep 2017 09:53:56 +0300
+Subject: _fix-light-locker-schema-loading
+
+---
+ settings/xfpm-settings.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
 diff --git a/settings/xfpm-settings.c b/settings/xfpm-settings.c
-index 5330065..a154775 100644
+index aab02e0..c69cc79 100644
 --- a/settings/xfpm-settings.c
 +++ b/settings/xfpm-settings.c
-@@ -1589,7 +1589,7 @@ static void xfpm_settings_light_locker (XfconfChannel *channel,
+@@ -1660,7 +1660,7 @@ static void xfpm_settings_light_locker (XfconfChannel *channel,
      }
  
      schema_source = g_settings_schema_source_get_default();
