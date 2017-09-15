@@ -1,3 +1,10 @@
+xfce4-power-manager (1.4.4-4pardus1) onyedi; urgency=medium
+
+  * Add .drone.yml
+  * Update Turkish translation
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Fri, 15 Sep 2017 09:55:07 +0300
+
 xfce4-power-manager (1.4.4-4) unstable; urgency=medium
 
   * debian/rules:
